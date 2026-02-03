@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patients | HMS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>HMS</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="patients.html">Patients</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="appointments.html">Appointments</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Add Patient</h2>
+
+    <form class="form" id="patientForm">
+      <input type="text" placeholder="Patient Name" required>
+      <input type="number" placeholder="Age" required>
+      <input type="text" placeholder="Gender" required>
+      <input type="text" placeholder="Disease" required>
+      <button type="submit">Add Patient</button>
+    </form>
+
+    <h2>Patients List</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Disease</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="patientsTableBody">
+        <tr>
+          <td>John Doe</td>
+          <td>35</td>
+          <td>Male</td>
+          <td>Flu</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+<script src="js/main.js"></script>
+</body>
+</html>

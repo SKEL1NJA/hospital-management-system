@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointments | HMS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>HMS</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="patients.html">Patients</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="appointments.html">Appointments</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Schedule Appointment</h2>
+
+    <form class="form" id="appointmentForm">
+      <input type="text" placeholder="Patient Name" required>
+      <input type="text" placeholder="Doctor Name" required>
+      <input type="date" required>
+      <input type="time" required>
+      <button type="submit">Schedule</button>
+    </form>
+
+    <h2>Appointments List</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Patient</th>
+          <th>Doctor</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="appointmentsTableBody">
+        <tr>
+          <td>John Doe</td>
+          <td>Dr. Smith</td>
+          <td>2026-02-01</td>
+          <td>10:30</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+<script src="js/main.js"></script>
+</body>
+</html>
