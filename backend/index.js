@@ -13,8 +13,8 @@ let appointments = [];
 
 /* ---------------- ROOT ---------------- */
 
-app.get("/", (req, res) => {
-  res.send("HMS Backend is running");
+app.get("/healthz", (req, res) => {
+  res.status(200).send("OK");
 });
 
 /* ---------------- PATIENTS ---------------- */
