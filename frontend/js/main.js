@@ -1,4 +1,4 @@
-console.log("HMS JavaScript connected");
+const API_BASE = "https://hospital-management-system-dq2s.onrender.com";
 
 /* =====================================================
    PATIENTS (BACKEND CRUD)

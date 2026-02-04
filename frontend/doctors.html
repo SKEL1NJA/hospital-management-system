@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Doctors | HMS</title>
+  <title>Patients | HMS</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,38 +19,34 @@
   </header>
 
   <main class="container">
-    <h2>Add Doctor</h2>
+    <h2>Add Patient</h2>
 
-    <form class="form" id="doctorForm">
-      <input type="text" placeholder="Doctor Name" required>
-      <input type="text" placeholder="Specialization" required>
-      <input type="number" placeholder="Experience (Years)" required>
-      <input type="text" placeholder="Contact Number" required>
-      <button type="submit">Add Doctor</button>
+    <form class="form" id="patientForm">
+      <input type="text" name="name" placeholder="Patient Name" required>
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="text" name="gender" placeholder="Gender" required>
+      <input type="text" name="disease" placeholder="Disease" required>
+      <button type="submit">Save Patient</button>
     </form>
 
-    <h2>Doctors List</h2>
+    <h2>Patients List</h2>
 
     <table class="table">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Specialization</th>
-          <th>Experience</th>
-          <th>Contact</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Disease</th>
           <th>Action</th>
         </tr>
       </thead>
-      <tbody id="doctorsTableBody">
-        <tr>
-          <td>Dr. Smith</td>
-          <td>Cardiologist</td>
-          <td>10</td>
-          <td>9876543210</td>
-        </tr>
+      <tbody id="patientsTableBody">
+        <!-- Filled dynamically -->
       </tbody>
     </table>
   </main>
-<script src="js/main.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
