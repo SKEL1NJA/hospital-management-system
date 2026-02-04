@@ -1,29 +1,14 @@
-# 🏥 Hospital Management System (HMS)
+# 🏥 Hospital Management System (Full Stack)
 
 A full-stack Hospital Management System built using **HTML, CSS, JavaScript, Node.js, and Express**.  
-The application manages **Patients, Doctors, and Appointments** with complete CRUD functionality using REST APIs.
+The application supports complete CRUD operations for **Patients, Doctors, and Appointments** using RESTful APIs.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-### Patients
-- Add new patients
-- View all patients
-- Edit patient details
-- Delete patients
-
-### Doctors
-- Add doctors
-- View doctors list
-- Edit doctor details
-- Delete doctors
-
-### Appointments
-- Schedule appointments
-- View appointments
-- Edit appointments
-- Cancel appointments
+- **Frontend:** https://hms-uday-khanna.netlify.app/ 
+- **Backend API:** https://hospital-management-system-dq2s.onrender.com/api/patients
 
 ---
 
@@ -38,116 +23,58 @@ The application manages **Patients, Doctors, and Appointments** with complete CR
 ### Backend
 - Node.js
 - Express.js
-- RESTful APIs
+- REST APIs
 - CORS enabled
 
----
-
-## 🏗️ Architecture
-
-# 🏥 Hospital Management System (HMS)
-
-A full-stack Hospital Management System built using **HTML, CSS, JavaScript, Node.js, and Express**.  
-The application manages **Patients, Doctors, and Appointments** with complete CRUD functionality using REST APIs.
+### Deployment
+- Backend: Render
+- Frontend: Netlify
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 ### Patients
-- Add new patients
-- View all patients
-- Edit patient details
-- Delete patients
+- Add, view, edit, and delete patients
 
 ### Doctors
-- Add doctors
-- View doctors list
-- Edit doctor details
-- Delete doctors
+- Add, view, edit, and delete doctors
 
 ### Appointments
-- Schedule appointments
-- View appointments
-- Edit appointments
-- Cancel appointments
+- Schedule, update, and cancel appointments
 
 ---
 
-## 🧱 Tech Stack
+## 🏗️ Project Structure
 
-### Frontend
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Fetch API
+hospital-management-system/
+├── frontend/
+│ ├── index.html
+│ ├── patients.html
+│ ├── doctors.html
+│ ├── appointments.html
+│ └── js/main.js
+│
+├── backend/
+│ ├── index.js
+│ └── package.json
+│
+└── README.md
+
+
+---
+
+## ▶️ Run Locally
 
 ### Backend
-- Node.js
-- Express.js
-- RESTful APIs
-- CORS enabled
-
----
-
-## 🏗️ Architecture
-
-Frontend (HTML, CSS, JS)
-|
-| Fetch API (HTTP)
-↓
-Backend (Node.js + Express)
-|
-↓
-In-memory data store
-
-
-> Note: Data is stored in-memory for simplicity.
-
----
-
-## ▶️ How to Run Locally
-
-### 1️⃣ Clone Repository
-```bash
-git clone <your-repo-url>
-cd hospital-management-system
-```
-
-2️⃣ Start Backend
 ```bash
 cd backend
 npm install
 node index.js
 ```
 
-Server runs at: http://localhost:3000
-
-3️⃣ Run Frontend
-- Open index.html using Live Server
-- OR open HTML files directly in browser
-
-🧪 API Endpoints
-Patients
-
-- GET /api/patients
-- POST /api/patients
-- PUT /api/patients/:id
-- DELETE /api/patients/:id
-
-Doctors
-
-- GET /api/doctors
-- POST /api/doctors
-- PUT /api/doctors/:id
-- DELETE /api/doctors/:id
-
-Appointments
-
-- GET /api/appointments
-- POST /api/appointments
-- PUT /api/appointments/:id
-- DELETE /api/appointments/:id
+### Frontend
+Open frontend/index.html using Live Server.
 
 📸 Screenshots
 Screenshots are available in the /screenshots folder.
