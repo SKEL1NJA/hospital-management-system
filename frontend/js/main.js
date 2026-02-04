@@ -1,10 +1,10 @@
 const API_BASE = "https://hospital-management-system-dq2s.onrender.com";
 
 /* =====================================================
-   PATIENTS (BACKEND CRUD)
+   PATIENTS
 ===================================================== */
 
-const PATIENT_API = "http://localhost:3000/api/patients";
+const PATIENT_API = `${API_BASE}/api/patients`;
 const patientForm = document.querySelector("#patientForm");
 const patientsTableBody = document.querySelector("#patientsTableBody");
 let editingPatientId = null;
@@ -85,10 +85,10 @@ if (patientForm) {
 }
 
 /* =====================================================
-   DOCTORS (BACKEND CRUD)
+   DOCTORS
 ===================================================== */
 
-const DOCTOR_API = "http://localhost:3000/api/doctors";
+const DOCTOR_API = `${API_BASE}/api/doctors`;
 const doctorForm = document.querySelector("#doctorForm");
 const doctorsTableBody = document.querySelector("#doctorsTableBody");
 let editingDoctorId = null;
@@ -169,10 +169,10 @@ if (doctorForm) {
 }
 
 /* =====================================================
-   APPOINTMENTS (BACKEND CRUD)
+   APPOINTMENTS
 ===================================================== */
 
-const APPOINTMENT_API = "http://localhost:3000/api/appointments";
+const APPOINTMENT_API = `${API_BASE}/api/appointments`;
 const appointmentForm = document.querySelector("#appointmentForm");
 const appointmentsTableBody = document.querySelector("#appointmentsTableBody");
 let editingAppointmentId = null;
