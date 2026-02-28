@@ -1,66 +1,93 @@
-# 🏥 Hospital Management System (Full Stack)
+# 🏥 Hospital Management System
 
-A full-stack Hospital Management System built using **HTML, CSS, JavaScript, Node.js, and Express**.  
-The application supports complete CRUD operations for **Patients, Doctors, and Appointments** using RESTful APIs.
+A full-stack healthcare management platform designed to streamline hospital operations including patient management, doctor administration, and appointment scheduling through RESTful APIs.
+
+This system digitizes traditional hospital workflows by providing centralized data handling, efficient appointment booking, and structured healthcare record management.
 
 ---
 
 ## 🚀 Live Demo
+🔗 https://hms-uday-khanna.netlify.app/
 
-- **Frontend:** https://hms-uday-khanna.netlify.app/ 
-- **Backend API:** https://hospital-management-system-dq2s.onrender.com/api/patients
+## 📂 GitHub Repository
+🔗 https://github.com/SKEL1NJA/hospital-management-system
 
 ---
 
-## 🧱 Tech Stack
+## ⚙️ Tech Stack
 
 ### Frontend
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript (ES6)
+- Responsive UI Design
 - Fetch API
 
 ### Backend
 - Node.js
 - Express.js
-- REST APIs
-- CORS enabled
+- RESTful API Architecture
+- Modular Routing
+- Middleware Integration
 
 ### Deployment
-- Backend: Render
 - Frontend: Netlify
+- Backend: Render
+- Version Control: Git & GitHub
 
 ---
 
-## ✨ Features
+## 🧠 System Architecture
 
-### Patients
-- Add, view, edit, and delete patients
-
-### Doctors
-- Add, view, edit, and delete doctors
-
-### Appointments
-- Schedule, update, and cancel appointments
+Client (Frontend UI)
+        ↓
+REST API Requests
+        ↓
+Express.js Server
+        ↓
+Application Logic
+        ↓
+Data Storage
 
 ---
 
-## 🏗️ Project Structure
+## ✨ Core Functionalities
 
-hospital-management-system/
-├── frontend/
-│ ├── index.html
-│ ├── patients.html
-│ ├── doctors.html
-│ ├── appointments.html
-│ └── js/main.js
-│
-├── backend/
-│ ├── index.js
-│ └── package.json
-│
-└── README.md
+### 👤 Patient Management
+- Add, update, delete, and view patient records
+- Centralized healthcare data handling
 
+### 👨‍⚕️ Doctor Management
+- Manage doctor profiles and availability
+- Dynamic data retrieval via APIs
+
+### 📅 Appointment Scheduling
+- Book and manage appointments
+- Backend validation to maintain scheduling consistency
+
+### 🔗 REST API Integration
+- Asynchronous communication between frontend and backend
+- Structured CRUD operations
+
+---
+
+## 🚀 Engineering Highlights
+
+- Designed RESTful APIs for healthcare workflows
+- Implemented modular backend architecture
+- Enabled cross-origin communication using middleware
+- Structured scalable CRUD operations
+- Deployed production-ready web application
+
+---
+
+## 🔮 Future Enhancements
+
+- Authentication & Role-Based Access Control
+- Database Integration (MongoDB/PostgreSQL)
+- Dashboard Analytics
+- Medical History Tracking
+- Secure Patient Authentication
 
 ---
 
